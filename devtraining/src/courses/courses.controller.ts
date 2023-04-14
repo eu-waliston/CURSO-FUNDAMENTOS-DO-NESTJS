@@ -17,4 +17,3 @@ export class CoursesController {
     return body;
   }
 }
- 
