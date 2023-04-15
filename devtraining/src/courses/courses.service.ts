@@ -24,6 +24,8 @@ export class CoursesService {
         `Course ID ${id} not found.`,
         HttpStatus.NOT_FOUND,
       );
+    } else {
+      return course;
     }
   }
 
